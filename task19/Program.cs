@@ -11,7 +11,6 @@ else
         int num3 = (number % 1000 - number % 100)/100;
         int num4 = (number % 100 - number % 10)/10;
         int num5 = (number % 10);
-        Console.WriteLine($"{num1}, {num2}, {num3}, {num4}, {num5}");
         if (num1 == num5 && num2 == num4)
             Console.WriteLine("Число является палиндромом");
         else Console.WriteLine("Число не является палиндромом");
